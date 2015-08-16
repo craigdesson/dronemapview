@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drone Map View</title>
+    <meta name="description" content="U.S. drone strike satelight images built using Google Maps and the Dronestream API." />
+    <meta name="googlebot" content="noarchive" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="drone.css">
+    <script src="drone.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+    
+
+    <!-- Social stuff -->
+    
+
+    <!-- Twitter -->
+    
+
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- <meta name="twitter:site" content="@nytimes"> -->
+    <meta name="twitter:creator" content="@craigdesson">
+    <meta name="twitter:title" content="Drone Map View">
+    <meta name="twitter:description" content="Satellite images of drone strike locations made from the Dronestream api and Google Maps. ">
+    <meta name="twitter:image" content="http://www.dronemapview.com/img/headerImage.jpg">
+    
+
+    <!-- Facebook -->
+    
+
+    <meta property="og:site_name" content="dronemapview.com"/>
+    
+    <meta property="og:title" content="Drone Map View"/>
+    
+    <link rel="image_src" href="http://craigdesson.com/drone-strikes-from-above/img/headerImage.jpg" / >
+    
+    <meta property="og:description" content="Satellite images of areas where US drone strikes happened, made with the Dronestream API and Google Maps."/>
+    
+    <meta property="og:url" content="www.dronemapview.com/">
+    
+    
+  </head>
+  <body>
+    <div class="wrapper clearfix">
+      <header>
+        <div class="topImage">
+        <img src="img/headerImage.jpg"></div>
+        <div class="introText">
+          <div class="caption">
+            <p>Drone operators fly an MQ-9 Reaper training mission from a ground control station at Holloman Air Force Base, New Mexico. (USAF/Handout)</p>
+          </div>
+          <h1 class="introText">Drone Map View</h1>
+          <div class="openText">
+            <span class="leftWords">
+              <p>Satellite images of drone strike locations built with the <a href="http://api.dronestre.am/">Drone Stream API</a> and Google Maps.  </p>
+              <p>These satellite images are of areas where a US drone strike occurred and don’t necessarily capture the exact location. However they do provide a view of the human geography of US drone strikes.</p> <p>Made by <a href="https://twitter.com/craigdesson" target="blank">Craig Desson</a>.</p></span>
+              <span class="rightWords">
+                <p>"The camera is a kind of passport that annihilates moral boundaries and social inhibitions, freeing the photographer from any responsibility toward the people photographed." <i>On Photography, Susan Sontag</i></p></span></div>
+              </div>
+            </header>
+            <article>
+              <div class="mapImage" id="mapImage"></div>
+            </article>
+            <div class="button">
+              <span><a class="btn" id="more" href="javascript:void(0)">Show more</a></span></div>
+            </div>
+            <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-65694504-1', 'auto');
+            ga('send', 'pageview');
+            </script>
+          </body>
+        </html>
